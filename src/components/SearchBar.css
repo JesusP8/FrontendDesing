@@ -1,0 +1,28 @@
+.search-container {
+  display: flex;
+  align-items: center;
+  background-color: rgba(167, 174, 236, 0.6); 
+  border-radius: 5px;
+  width: 420px; 
+  height: 40px; 
+  padding: 5px;
+  margin-top: -50px; 
+  border:transparent; 
+  border-width: 2px; 
+  position: relative;
+  left: 30%; 
+  z-index: 0;
+}
+
+.search-icon {
+  margin-right: 5px;
+  color: white;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+  color: white;
+}

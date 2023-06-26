@@ -1,0 +1,89 @@
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(17, 3, 64);
+    color: white;
+    z-index: 1;
+  }
+  
+  .left-section,
+  .right-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .left-section h1 {
+    margin-right: 25px;
+    font-size: 18px;
+  }
+  
+  .left-section span {
+    margin: 0 5px;
+    font-size: 14px;
+  }
+  
+  .left-section nav a,
+  .right-section a {
+    margin-right: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .left-section nav a:hover,
+  .right-section a:hover {
+    color: lightblue;
+  }
+  .left-section .option {
+    margin-right: 25px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: 50;
+  }
+  
+  
+  .cart-option {
+    position: relative;
+  }
+  
+  .cart-icon {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    margin-right: 5px;
+    color: white;
+    padding: 2px 5px;
+    border-radius: 50%;
+    font-size: 12px;
+  }
+
+  .cart-option .icon {
+    margin-right: 5px;
+  }
+  
+  .cart-text {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  
+  .sign-in-option {
+    display: flex;
+    align-items: center;
+    background-color: lightgreen;
+    font-weight: bold;
+    padding: 8px 12px;
+    color: black;
+    border-radius: 5px; 
+  }
+  
+  .sign-in-option .user-icon {
+    color: black;
+    margin-left: 5px;
+  }
+  
+  

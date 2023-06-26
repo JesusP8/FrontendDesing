@@ -1,0 +1,27 @@
+.bottom-bar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    margin-left: -20px;
+    margin-top: 40px;
+    background-color: rgb(17, 3, 64);
+    width: 100%; 
+  }
+
+  .payment-methods {
+    display: flex;
+    align-items: center;
+    margin-left: 220px; 
+  }
+  
+  .payment-method-image {
+    width: 70px; 
+    height: 35px; 
+    margin-right: 10px;
+  }
+  .text2 {
+  margin-left: 10px; 
+  font-size: 14px; 
+  color: #d0cdcd; 
+}

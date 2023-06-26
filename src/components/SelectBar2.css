@@ -1,0 +1,37 @@
+.select-bar2 {
+    width: 220px; 
+    height: 40px; 
+    display: flex;
+    align-items: center;
+    background-color: rgba(167, 174, 236, 0.6);
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: -51px; 
+    border: transparent; 
+    border-width: 2px; 
+    position: relative;
+    left: 58.6%; 
+    z-index: 0;
+    
+  }
+  
+  .select-bar2 select {
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    color: white;
+    width: 220px; 
+    height: 150px; 
+  }
+  
+  .select-bar2 .select-icon {
+    color: lightgreen;
+  }
+  .select-bar2 .select-text {
+    font-size: 8px;
+    color: white;
+    text-align: center;
+    height: 20px; 
+  }
+  
+  
